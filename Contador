@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+
+
+# Se solicitan los números al usuario
+numero1 = input("¿Desde que numero quieres contar?")
+numero_entero1=int(numero1)
+numero2 = input("¿Hasta que numero quieres contar?")
+numero_entero2=int(numero2)
+
+
+#creamos un condicional
+if numero_entero1>numero_entero2:
+
+	for numero3 in range(numero_entero1,numero_entero2- 1,-1):
+		print(numero3)
+
+#de lo contrario
+else:
+	for numero4 in range(numero_entero1,numero_entero2 +1):
+		print(numero4)
+
+
+
+	
