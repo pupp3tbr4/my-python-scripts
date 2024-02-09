@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+
+from sys import getsizeof
+
+texto1=input("porfavor introduzca el texto para que pueda contar sus letras:")
+print(getsizeof(texto1))
